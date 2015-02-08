@@ -5,13 +5,21 @@ This javascript file will include an api for building a bot.
 The main purpose is to see how fast a bot can clear the board in a specified amount of games.
 
 Example of a sample bot / setting up a battlship game.
-'''
+```
 	var b = new Battleship(100, 10);
+	
+	//amount of games to loop through
 	for(var games = 0; games < b.amountOfGames; games++){
+		
+		//If the game isn't over continue to fire a random shot
 		while(b.gameStatus.gameOver != true){
 			b.fireShot(b.randomCoordinate());
 		}
+		
+		//log the stats to the console.
 		console.log(b.gameStats);
+		
+		//setup game
 		b.drawBoard();
 		b.createBoard();
 		b.createShips();
@@ -22,5 +30,6 @@ Example of a sample bot / setting up a battlship game.
 		b.randomShipLocation(3);
 		b.randomShipLocation(4);
 	}
+	//display the last game played
 	b.drawStats();
-'''
+```
