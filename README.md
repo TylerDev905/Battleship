@@ -4,7 +4,7 @@ Battleship is a javascript version of the popular game.
 This javascript file will include an api for building a bot. 
 The main purpose is to see how fast a bot can clear the board in a specified amount of games.
 
-Example of a sample bot / setting up a battlship game.
+Example of a sample bot / setting up a battleship game.
 ```
 	var b = new Battleship(100, 10);
 	
