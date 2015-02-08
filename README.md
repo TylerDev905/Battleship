@@ -6,6 +6,8 @@ The main purpose is to see how fast a bot can clear the board in a specified amo
 
 Example of a sample bot / setting up a battleship game.
 ```javascript
+
+	//Amount of games / size of board
 	var b = new Battleship(100, 10);
 	
 	//amount of games to loop through
