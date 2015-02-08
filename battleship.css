@@ -1,0 +1,37 @@
+table{
+	border:1px solid black;
+	padding:5px;
+	background-color:black;
+}
+table td{
+	width:30px;
+	height:30px;
+}
+table th{
+	width:30px;
+	height:30px;
+}
+.Hit{
+	background-color:#800000;
+	color:#800000;
+}
+.Miss{
+	background-color:#AAA;
+	color:#AAA;
+}
+.Unknown{
+	background-color:#EEE;
+	color:#EEE;
+}
+.margin{
+	background-color:white;
+	text-align:center;
+	font-weight:bold;
+}
+#stats{
+	margin-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	width:375px;
+	text-align:center;
+}
